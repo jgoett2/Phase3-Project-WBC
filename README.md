@@ -15,11 +15,11 @@ Lymphocyte:
 ### Study Question
 Can a simple computer vision algorithm classify white blood cell family types at a satisfactory rate?
 
-### Results
+# Results
 KNN Classifier Results (Best)
-- **Granulocytes**: Precision: 85% Accuracy: 71%
-- **Monocytes**: Precision: 20% Accuracy: 28%
-- **Lymphocytes**: Precision: 10% Accuracy: 33%
+- **Granulocytes**: Precision: 90% Accuracy: 93%
+- **Monocytes**: Precision: 40% Accuracy: 33%
+- **Lymphocytes**: Precision: 0% Accuracy: 0%
 
 ## Data Preparation
 Begin by defining a new class, Contour, that will help to manage the data input and vectorization process.  Display one image from a test Contour object.
@@ -38,6 +38,6 @@ Run a KNN Classifier on the data, using a train test split.  Check the confusion
 
 # Results
 KNN Classifier Results (Best)
-- **Granulocytes**: Precision: 85% Accuracy: 71%
-- **Monocytes**: Precision: 20% Accuracy: 28%
-- **Lymphocytes**: Precision: 10% Accuracy: 33%
+- **Granulocytes**: Precision: 90% Accuracy: 93%
+- **Monocytes**: Precision: 40% Accuracy: 33%
+- **Lymphocytes**: Precision: 0% Accuracy: 0%
